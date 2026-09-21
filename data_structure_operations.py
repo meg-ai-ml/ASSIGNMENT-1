@@ -60,9 +60,18 @@ print(f"The original tuple is {drivers_tuple}")
 print(f"My favourite driver is {drivers_tuple[0]}")
 
 # Concatenate elements in the tuple by adding a new tuple to it.
+# because We cannot directly append a tuple as tuples are immutable.
+
 drivers1 = ("Kimi","Carlos")
 drivers2 = drivers_tuple + drivers1
 print(f"The modified tuple is {drivers2}")
+
+# Updating a tuple by converting tuple to list vice versa
+driver_tuple_1= list(drivers2)
+driver_tuple_1[1] = "Lance"
+drivers2 = tuple(driver_tuple_1)
+
+print(f"The updated tuple is {drivers2}")
 
 # Deleting the tuple.
 del drivers2 
