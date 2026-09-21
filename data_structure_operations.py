@@ -90,7 +90,7 @@ print(f"After adding a key-value pair, {drivers_dict}")
 
 # Updating an existing value
 drivers_dict["Lewis"] = "Williams"
-print(f"Afer updating an existing value, {drivers_dict}")
+print(f"AfTer updating an existing value, {drivers_dict}")
 
 # Removing items from the dictionary.
 
