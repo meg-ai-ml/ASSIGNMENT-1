@@ -24,7 +24,7 @@ drivers_list.extend(["Carlos","Kimi"])
 print(f"After extend: {drivers_list}")
 
 # Update in a list
-drivers_list[6] = "Senna"
+drivers_list[5] = "Senna"
 print(drivers_list)
 
 # Remove elements from the list.
